@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "ignoreDeprecations": "5.0",
     "skipLibCheck": true,
     "removeComments": true,
     "target": "es5",
@@ -25,7 +26,5 @@
     "**/lib",
     "**/scripts"
   ],
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*"]
 }
